@@ -1,10 +1,30 @@
-<h1>Kaminski Technologies</h1>
-<p>
-  Hello! You're visiting my personal site. Inside, you'll find my web development projects, as well as some other personal projects that I've worked on/completed. I also intend to add any freelancing work that I've done, as I have some of that in the works as well. Essentially, this is a site to help you get to know me!
-</p>
-<p>
-  Thanks,
-  Kevin
-</p>
+<header>
+  <h1>Kaminski Technologies</h1>
+</header>
 
-{{outlet}}
+<div>
+  <p>
+    Hello! You're visiting my personal site. Inside, you'll find my web development projects, as well as some other personal projects that I've worked on/completed. I also intend to add any freelancing work that I've done, as I have some of that in the works as well. Essentially, this is a site to help you get to know me!
+  </p>
+  <p>
+    Thanks,
+    Kevin
+  </p>
+  {{outlet}}
+</div>
+
+<footer>
+  <ul>
+    <li>Bio</li>
+    <li>
+      <LinkTo @route="contact">Contact</LinkTo>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/kevin-kaminski-850991b7/">LinkedIn
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/KaminKevCrew">Github</a>
+    </li>
+  </ul>
+</footer>
