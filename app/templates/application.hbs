@@ -1,16 +1,27 @@
 <header class="header">
-  <h1 class="h1">Kaminski Technologies</h1>
+  <LinkTo @route="application">
+    <h1 class="h1">Kaminski Technologies</h1>
+  </LinkTo>
+  <div class="navigation-outer">
+    <div class="navigation">
+      <div class="link">
+        <LinkTo @route="dev-projects">Web Projects</LinkTo>
+        <LinkTo @route="personal-projects">Personal Projects</LinkTo>
+        <LinkTo @route="bio">About Me</LinkTo>
+      </div>  
+    </div>
+  </div>    
 </header>
 
 <body class="content-body">
   <div class="content-div">
-    <p class="welcome-message">
+    {{!-- <p class="welcome-message">
       Hello! You're visiting my personal site. Inside, you'll find my web development projects, as well as some other personal projects that I've worked on/completed. I also intend to add any freelancing work that I've done, as I have some of that in the works as well. Essentially, this is a site to help you get to know me!
     </p>
     <p class="thanks-message">
       Thanks,
       Kevin
-    </p>
+    </p> --}}
     {{outlet}}
   </div> 
 </body>
