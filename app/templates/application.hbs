@@ -1,29 +1,33 @@
-<header>
-  <h1>Kaminski Technologies</h1>
+<header class="header">
+  <h1 class="h1">Kaminski Technologies</h1>
 </header>
 
-<div>
-  <p>
-    Hello! You're visiting my personal site. Inside, you'll find my web development projects, as well as some other personal projects that I've worked on/completed. I also intend to add any freelancing work that I've done, as I have some of that in the works as well. Essentially, this is a site to help you get to know me!
-  </p>
-  <p>
-    Thanks,
-    Kevin
-  </p>
-  {{outlet}}
-</div>
+<body class="content-body">
+  <div class="content-div">
+    <p class="welcome-message">
+      Hello! You're visiting my personal site. Inside, you'll find my web development projects, as well as some other personal projects that I've worked on/completed. I also intend to add any freelancing work that I've done, as I have some of that in the works as well. Essentially, this is a site to help you get to know me!
+    </p>
+    <p class="thanks-message">
+      Thanks,
+      Kevin
+    </p>
+    {{outlet}}
+  </div> 
+</body>
 
-<footer>
-  <ul>
-    <li>Bio</li>
-    <li>
+<footer class="footer">
+  <ul class="footer-list">
+    <li class="footer-link">
+      <LinkTo @route="bio">Bio</LinkTo>
+      </li>
+    <li class="footer-link">
       <LinkTo @route="contact">Contact</LinkTo>
     </li>
-    <li>
+    <li class="footer-link">
       <a href="https://www.linkedin.com/in/kevin-kaminski-850991b7/">LinkedIn
       </a>
     </li>
-    <li>
+    <li class="footer-link">
       <a href="https://github.com/KaminKevCrew">Github</a>
     </li>
   </ul>

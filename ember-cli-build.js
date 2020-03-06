@@ -7,7 +7,17 @@ module.exports = function(defaults) {
     // Add options here
     sassOptions: {
       extension: 'scss'
-    }
+    },
+    // outputPaths: {
+    //   app: {
+    //     css: {
+    //       'reset': '/assets/reset.scss',
+    //       'header': '/assets/header.scss',
+    //       'footer': '/assets/footer.scss',
+
+    //     }
+    //   }
+    // }
   });
 
   // Use `app.import` to add additional libraries to the generated
