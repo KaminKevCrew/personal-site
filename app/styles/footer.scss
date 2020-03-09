@@ -1,0 +1,25 @@
+.footer {
+  background-color: #5D2A7A;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-link {
+  padding: 5px;
+}
+
+.footer-link > a {
+  text-decoration: none;
+  color: #FFE5B5;
+}
+
+.footer-link > a:hover {
+  color: #4DFFA1;
+}
+
+.footer {
+  flex-shrink: 0;
+}
