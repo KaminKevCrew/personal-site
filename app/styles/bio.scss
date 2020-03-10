@@ -1,0 +1,24 @@
+.bio-container {
+  padding: 15px;
+  background-color: $background;
+}
+
+.bio-p {
+  color: $text;
+}
+
+.bio-list {
+  list-style-type: square;
+  list-style-position: inside;
+  padding: 1em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $accent-background;
+  color: $text;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
